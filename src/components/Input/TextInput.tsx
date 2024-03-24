@@ -8,7 +8,7 @@ const TextInput = () => {
         type="text"
         onChange={(e: ChangeEvent<HTMLInputElement>) => setText(e.target.value)}
         value={text}
-        placeholder="Enter some text"
+        placeholder="Enter some text mod"
       />
       <p>{text}</p>
     </div>
